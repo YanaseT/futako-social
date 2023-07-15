@@ -5,6 +5,7 @@ import App from './App';
 import About from './About';
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import "./i18n/config.ts";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

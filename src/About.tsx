@@ -1,7 +1,7 @@
 import React from "react";
-import "./Home.css";
-const Home = () => {
-  return <div className="home"> About Component</div>;
+import "./About.css";
+const About = () => {
+  return <div className="about"> About Component</div>;
 };
 
-export default Home;
+export default About;
