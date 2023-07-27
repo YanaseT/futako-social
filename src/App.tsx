@@ -8,12 +8,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Header
       </header>
       <div>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="/">{t('header.home')}</Link></li>
+          <li><Link to="/about">{t('header.about')}</Link></li>
         </ul>
       </div>
     </div>

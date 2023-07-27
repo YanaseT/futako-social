@@ -1,7 +1,8 @@
 import React from "react";
-import "./About.css";
+
+//Aboutページのコンポーネント
 const About = () => {
-  return <div className="about"> About Component</div>;
-};
+  return <div className="about"> About component</div>;
+}
 
 export default About;
